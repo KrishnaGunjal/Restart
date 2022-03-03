@@ -55,9 +55,11 @@
 		7A7F8B6127D0DBD800348C70 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				7A7F8B7727D0DE9800348C70 /* Utilities */,
+				7A7F8B7627D0DE8600348C70 /* Views */,
 				7A7F8B7427D0DCEA00348C70 /* Sounds */,
 				7A7F8B6227D0DBD800348C70 /* RestartApp.swift */,
-				7A7F8B6427D0DBD800348C70 /* ContentView.swift */,
+				7A7F8B7527D0DE7300348C70 /* Screens */,
 				7A7F8B6627D0DBDB00348C70 /* Assets.xcassets */,
 				7A7F8B6827D0DBDB00348C70 /* Preview Content */,
 			);
@@ -79,6 +81,28 @@
 				7A7F8B7027D0DCE000348C70 /* chimeup.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		7A7F8B7527D0DE7300348C70 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7A7F8B6427D0DBD800348C70 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7A7F8B7627D0DE8600348C70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A7F8B7727D0DE9800348C70 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
